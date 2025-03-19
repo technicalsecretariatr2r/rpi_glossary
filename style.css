@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+
+
+ /* configuration of general font type */
+html, body, [class*="css"] {
+    font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+  } 
+
+.body{font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+  line-height: 1.6;}
+
+  p {
+    font-size: 16px; 
+    line-height: 1.5; /* set the line height */
+    text-align: justify; /* set the text alignment */
+  }
+
+  h1 {
+    /* font-size: 50px; */
+    color: #538BC5;
+    /* margin-top:-100px; */
+    margin-top:0px;
+    /* font-weight:900 ;   */
+  }
+  
+  h2 {
+    /* font-size: 30px; */
+    color: #424648;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    /* font-size: 24px; */
+    color: #363A2D;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    /* font-size: 18px; */
+    color: #8E9466;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  h5 {
+    /* font-size: 16px; */
+    color: #4D5F66; 
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  h6 {
+    /* font-size: 14px; */
+    /* color: #112E4D; */
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+
+  a.custom-link {
+    color: #FF37D5; /* Normal state color */
+  }
+
+  a.custom-link:hover {
+      color: #112E4D; /* Hover state color */
+  }
